@@ -18,3 +18,6 @@ int main()
         cin>>f;
         cout<<fibo(f); 
 }
+
+/* Input= 8
+  Output= 21 */
