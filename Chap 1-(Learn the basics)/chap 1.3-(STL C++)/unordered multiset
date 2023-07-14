@@ -1,0 +1,35 @@
+An unordered_multiset in STL is an associative container just like an unordered set the only difference is it can store duplicate elements in it.
+
+Example:
+unordered_multiset<int> s;
+unordered_multiset<string> str;
+
+Functions :
+
+1.insert() – to insert an element in the unordered multiset.
+  unordered_multiset<int> s;
+  s.insert(1);
+  s.insert(2);
+2.begin() – return an iterator pointing to the first element in the unordered multiset.
+  end() – returns an iterator to the theoretical element after the last element.
+3.count() – gives the count of a particular element in the unordered multiset.
+  unordered_multiset<int> s;
+  s.insert(1);
+  s.insert(2);
+  s.count(2); //returns 1
+4.clear() – deletes all the elements in the unordered multiset.
+5.find() – to search an element in the unordered multiset.
+  unordered_multiset<int> s;
+  s.insert(1);
+  s.insert(2);
+  if(s.find(2)!=s.end())
+  cout<<"true"<<endl;
+6.erase() – to delete a single element or elements between a particular range.
+7.size() – returns the size of the unordered multiset.
+8.empty() – to check if the unordered multiset is empty or not.
+9.cbegin() – it refers to the first element of the unordered multiset.
+10.cend() – it refers to the theoretical element after the last element of the unordered multiset.
+11.rbegin() – it points to the last element of the unordered multiset.
+12.rend() – it points to the theoretical element before the first element of the unordered multiset.
+13.emplace() – to insert an element in the unordered multiset.
+14.max_size() – the maximum elements an unordered multiset can hold.
