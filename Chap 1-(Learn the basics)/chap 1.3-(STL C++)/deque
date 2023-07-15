@@ -1,0 +1,29 @@
+Double Ended Queue which is also called Deque is a type of queue data structure in which the insertion and deletion of elements can be either
+in front or rear. 
+
+Example:
+deque<int> dq;
+deque<string> dq;
+
+Functions :
+
+1. push_back() – to insert an element at the end of the deque.
+   deque<int> dq;
+   dq.push_back(110);
+   dq.push_back(220);
+2. push_front() – to insert an element at the front of the deque.
+   deque<int> dq;
+   dq.push_front(110);
+   dq.push_front(220);
+3. pop_back() – deletes the last element of the deque.
+   dq.pop_back();
+4. pop_front() – deletes the front element of the deque.
+   dq.pop_front();
+5. front() – it gives a reference to the first element of the deque.
+   dq.front();
+6. back() – it gives a reference to the last element of the deque.
+   dq.back();
+7. size() – returns the number of elements on the deque.
+   dq.size();
+8. empty() – to check if the deque is empty or not.
+   dq.empty();
