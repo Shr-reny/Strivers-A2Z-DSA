@@ -1,0 +1,42 @@
+A list in STL is a contiguous container that allows the inserting and erasing of elements in constant time and iterating in both directions.
+
+Example:
+list<int> li;
+list<string> li;
+
+Functions:
+1.push_back() – to insert an element at the end of the list.
+list<int> li;
+li.push_back(110);
+li.push_back(220);
+2.push_front() – to insert an element at the front of the list.
+list<int> li;
+li.push_front(110);
+li.push_front(220);
+3.pop_back() – deletes the last element of the list.
+li.pop_back();
+4.pop_front() – deletes the front element of the list.
+li.pop_front();
+5.front() – it gives a reference to the first element of the list.
+li.front();
+6.back() – it gives a reference to the last element of the list.
+li.back();
+7.reverse() – reverse the list.
+li.reverse();
+8.sort() – sorts the list in ascending order.
+li.sort();
+9.size() – returns the number of elements on the list.
+li.size();
+10.empty() – to check if the list is empty or not.
+li.empty();
+11.begin() – it refers to the first element of the list.
+12.end() – it refers to the theoretical element after the last element of the list.
+13.cbegin() – it refers to the first element of the list.
+14.cend() – it refers to the theoretical element after the last element of the list.
+15.rbegin() – it points to the last element of the list.
+16.rend() – it points to the theoretical element before the first element of the list.
+17.emplace_front() – to insert an element at the front of the list.
+18.emplace_back() – to insert an element at the end of the list.
+19.max_size() – the maximum elements a list can hold.
+20.clear() – to delete all the elements of the list.
+21.erase() – to delete a single element or elements between a particular range.
