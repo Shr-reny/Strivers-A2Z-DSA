@@ -4,7 +4,6 @@ In simple words, count the number of bit positions in binary representation of a
 
 How will you solve this problem?
 
-
 int count_setbits(int N)
 { 
    int cnt=0;
