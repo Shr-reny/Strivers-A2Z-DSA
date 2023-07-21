@@ -1,5 +1,5 @@
 /* The basic approach is to divide by 10 and set a counter to increment. */
-
+/* Complexity : O(n) */
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -21,6 +21,7 @@ int main()
 }
 
 /*  We can convert the number into string and print it's length */
+/* Complexity : O(1) */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -38,6 +39,7 @@ int main()
 }
 
 /* Another intuition is to print the logarithm of a number +1 */
+/* Complexity : O(1) */
 
 #include<bits/stdc++.h>
 using namespace std;
