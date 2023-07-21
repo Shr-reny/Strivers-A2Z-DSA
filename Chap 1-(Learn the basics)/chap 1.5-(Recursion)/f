@@ -1,0 +1,9 @@
+vector<int>ans;
+int i=1;
+vector<int> printNos(int x) {
+    if(i==x+1)
+    return ans;
+    ans.push_back(i);
+    i++;
+    return printNos(x);
+}
