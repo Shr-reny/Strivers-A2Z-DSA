@@ -1,4 +1,5 @@
 /* We should get the remainder from the number and then eventually add it to reverse by multiplying it with 10 */
+/* Complexity : O(n) */
 
 #include<bits/stdc++.h>
 using namespace std;
