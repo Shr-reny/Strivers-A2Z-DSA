@@ -1,3 +1,5 @@
+/* Aim is to get second largest and smallest element from an array using optimal method which gives O(2n) complexity */
+
 vector<int> getSecondOrderElements(int n, vector<int> a) {
    int l=INT_MIN,sl=INT_MIN;
    for(int i=0;i<n;i++)
