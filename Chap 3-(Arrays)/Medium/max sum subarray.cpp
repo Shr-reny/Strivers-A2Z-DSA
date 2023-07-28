@@ -44,3 +44,29 @@ int maxSubarraySum(int arr[], int n) {
 
     return maxi;
 }
+
+/* OPTIMAL SOL:
+TC is O(N) and SC is O(1) */
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int n=nums.size();
+         long long maxi=LONG_MIN;
+    long long sum=0;
+ 
+    for(int i=0;i<n;i++)
+    {
+        sum+=nums[i];
+        maxi=max(maxi,sum);
+        if (sum < 0) {
+          sum = 0;
+        }
+    }
+   
+  return maxi;
+  return -1;
+    }
+};
+
+/*  This will return the sum even if it is negative. For sum to be positive add one if condition at last */
