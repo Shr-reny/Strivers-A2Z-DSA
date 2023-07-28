@@ -1,4 +1,7 @@
+/* Aim is to find the element which occurs more than n/2 times in array */
 
+/* BRUTE FORCE:
+  TC is O(N*N) and SC is O(1) */
 
 class Solution{
   public:
@@ -25,6 +28,8 @@ class Solution{
     }
 };
 
+/* BETTER SOL:
+  TC is O(NlogN)+O(n) and SC is O(n) */
 
 class Solution{
   public:
@@ -48,6 +53,38 @@ class Solution{
        }
        return -1;
         
+    }
+};
+
+/* OPTIMAL SOL:
+  TC is O(N)+O(N) and SC is O(1) */
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int n=nums.size();
+        int el;
+        int cnt=0;
+        for(int i=0;i<n;i++)
+        {
+            if(cnt==0)
+            {
+                cnt=1;
+                el=nums[i];
+            }
+            else if(el==nums[i])
+            {
+                cnt++;
+            }
+            else cnt--;
+        }
+        int cnt1=0;
+        for(int i=0;i<n;i++)
+        {
+            if(el==nums[i]) cnt1++;
+        }
+        if(cnt1>n/2) return el;
+        return -1;
     }
 };
 
