@@ -1,3 +1,8 @@
+/* Aim is to find the longest subsequence consisting consecutive integers */
+
+/* BRUTE FORCE:
+ TC is O(N*N) and SC is O(1) */
+
 bool linear(vector<int>&a,int num)
 {
     int n=a.size();
@@ -24,6 +29,8 @@ int longestSuccessiveElements(vector<int>&a) {
     return longest;
 }
 
+/* BETTER APPROACH:
+TC is O(NlogN) + O(N) and SC is O(1) */
 
 int longestSuccessiveElements(vector<int>&a) {
    int n=a.size();
