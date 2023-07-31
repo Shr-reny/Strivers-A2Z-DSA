@@ -19,8 +19,7 @@ int maxSubarraySum(int arr[], int n) {
             maxi = max(maxi, sum);
         }
     }
-
-    return maxi;
+return maxi;
 }
 
 /* BETTER SOL:
