@@ -1,4 +1,5 @@
-/* Insertion sort compares an element with it's left element and places it at it's right position. So, array starts to be sorted from 
+/* Insertion sort compares an element with it's left element and places it at it's right position.
+So, array starts to be sorted from 
 beginning and we iterate only in unsorted part */
 /* Time complexity in worst and avg cases are O(n*n) and in best case is O(N) when array is sorted */
 
