@@ -1,4 +1,5 @@
-/* It means we will select the unsorted array then find the minimum element and swap it with the first element in the selected range */
+/* It means we will select the unsorted array then find the minimum element and swap it with the
+first element in the selected range */
 /* Time complexity = O(n*n) for all best, worst, average cases */
 
 void selectionSort(vector<int>&arr) {
