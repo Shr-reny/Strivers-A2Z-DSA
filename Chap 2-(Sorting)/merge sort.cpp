@@ -1,5 +1,5 @@
-/* Merge sort uses the concept of divide and conquer. It first divides the array into two parts and continously divides until
-no further division can happen and then merges one by one */
+/* Merge sort uses the concept of divide and conquer. It first divides the array into two parts 
+and continously divides until no further division can happen and then merges one by one */
 /*Time complexity: O(nlogn) */
 
 void merge(vector<int> &arr, int low, int mid, int high) {
