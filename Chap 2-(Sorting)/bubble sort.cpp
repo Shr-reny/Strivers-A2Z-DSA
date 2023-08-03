@@ -35,7 +35,7 @@ void bubbleSort(int arr[], int n)
                 arr[j+1]=temp;
             // swap(arr[j],arr[j+1]);
             }
-        }
+    }
 
     return bubbleSort(arr,n-1);
 }
