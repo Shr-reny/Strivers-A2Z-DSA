@@ -10,7 +10,7 @@ void pattern18(int N)
           // A + N -1 -i (i is row no.) to A + N -1 ( E in this case).
           for(char ch =('A'+N-1)-i;ch<=('A'+N-1);ch++){
               
-              cout<<ch<<" ";
+            cout<<ch<<" ";
           }
           
           // As soon as the letters for each iteration are printed, we move to the
