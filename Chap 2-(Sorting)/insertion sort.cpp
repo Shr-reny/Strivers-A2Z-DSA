@@ -16,6 +16,7 @@ void insertion_sort(int arr[], int n)
     }
 }
 
+
 /*RECURSIVE APPROACH */
 
 void insertion_sort(int arr[], int i, int n) {
