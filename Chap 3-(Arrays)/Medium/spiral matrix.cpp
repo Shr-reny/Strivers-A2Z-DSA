@@ -1,5 +1,11 @@
 /* Aim is to print a matrix in a spiral manner like this:
-  
+  1->2->3->4
+           |
+11 ->12    5
+  |        |
+  10<-8<-7<-6 */
+
+/*TC is O(n*m) */
 
 vector<int> spiralMatrix(vector<vector<int>>&mat) {
     vector<int>ans;
