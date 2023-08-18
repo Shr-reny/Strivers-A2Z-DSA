@@ -14,5 +14,5 @@ public:
         }
          if(nums[n-1]>nums[0]) k++;
          return k<=1;
-    }
+  }
 };
