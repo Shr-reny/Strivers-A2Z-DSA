@@ -1,5 +1,5 @@
 /* Given an array nums, return true if the array was originally sorted in non-decreasing order, 
-  then rotated some number of positions (including zero). Otherwise, return false. */
+  then rotated some number of positions (including zero). Otherwise, return false.*/
 /* The approach is to check the number of times it breaks the sorted order or if first element is smaller than last if at last count<=1 then true else false */
 
 class Solution {
