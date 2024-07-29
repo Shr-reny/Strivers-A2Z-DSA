@@ -1,4 +1,5 @@
-unordered_multimap in STL are associative containers like unordered maps where each element consists of a key value and a mapped value, the only difference is unordered multimaps can store duplicate elements
+unordered_multimap in STL are associative containers like unordered maps where each element consists of a key value and a mapped value,
+the only difference is unordered multimaps can store duplicate elements
 
 Example:
 unordered_multimap<int,int> mpp;
