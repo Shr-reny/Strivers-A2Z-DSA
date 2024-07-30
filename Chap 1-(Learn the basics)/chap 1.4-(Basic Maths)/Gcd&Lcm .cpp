@@ -13,6 +13,8 @@ int main()
 		}
 	}
 	cout << "The GCD of the two numbers is "<<ans;
+	int lcm=(a*b)/ans;
+	cout <<"The LCM of the two numbers is "<<lcm;
 }
 
 /* We can use the Euclidean theorem which says if a number is divided by both a and b, it is should be divided by (a-b) and b as well. */
@@ -31,4 +33,7 @@ int main()
 
 	int a = 4, b = 8;
 	cout <<"The GCD of the two numbers is "<<gcd(a, b);
+	int g=gcd(a,b);
+	int lcm=(a*b)/g;
+	cout <<"The LCM of the two numbers is "<<lcm;
 }
