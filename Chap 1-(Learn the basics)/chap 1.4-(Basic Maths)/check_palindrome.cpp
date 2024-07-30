@@ -26,3 +26,5 @@ int main() {
    }
    return 0;
 }
+
+/* Another approach is to convert to string using to_string() and reverse function and matching. But this will have more time complexity than the one above */
