@@ -1,4 +1,5 @@
-/* We should get the remainder from the number and then eventually add it to reverse by multiplying it with 10 */
+/* We should get the remainder from the number and then eventually add it to reverse by 
+multiplying it with 10 */
 /* Complexity : O(n) */
 
 #include<bits/stdc++.h>
@@ -17,3 +18,6 @@ int main()
     }
     cout<<"The reverse of the"<<num<<"is"<<reverse<<endl;
 }
+
+/* If there is a constraint of reversing numbers in 32-bit range only, if(n>INT_MAX/10 || n<INT_MIN/10) return 0; use this
+condition within while loop */
