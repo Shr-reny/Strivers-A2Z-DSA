@@ -9,3 +9,11 @@ vector<string> printNTimes(int n) {
 	ans.push_back(val);
 	return printNTimes(n-1);
 }
+
+/*second approach*/
+void print(int n)
+{
+    if(n==0) return;
+    print(n-1);
+    cout<<"GFG"<<" ";
+}
