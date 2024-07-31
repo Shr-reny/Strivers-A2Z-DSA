@@ -9,3 +9,11 @@ vector<int> printNos(int x) {
     i++;
     return printNos(x);
 }
+
+/*second approach*/
+void print(int n)
+{
+    if(n==0) return;
+    print(n-1);
+    cout<<n<<" ";
+}
