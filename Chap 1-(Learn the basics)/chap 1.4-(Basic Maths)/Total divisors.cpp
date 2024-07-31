@@ -18,7 +18,8 @@ return 0;
 }
 
 /*From the intuition, we can come to the conclusion that we don’t need to traverse all the candidates and if we found a single divisor,
-we can also find another divisor(Here, we need to be careful, if the given number is a perfect square, like 36, 6 also give 6 as quotient. This is a corner case.) */
+we can also find another divisor(Here, we need to be careful, if the given number is a perfect square, like 36, 6 also give 6 as quotient.
+This is a corner case.) */
 /* Time Complexity: O(sqrt(n)) */
 
 #include<bits/stdc++.h>
