@@ -7,3 +7,11 @@ vector<int> printNos(int x) {
     ans.push_back(x);
     return printNos(x-1);
 }
+
+/*second approach*/
+void print(int n)
+{
+    if(n==0) return;
+    cout<<n<<" ";
+    print(n-1);
+}
