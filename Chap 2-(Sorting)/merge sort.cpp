@@ -21,7 +21,6 @@ void merge(vector<int> &arr, int low, int mid, int high) {
     }
 
     // if elements on the left half are still left //
-
     while (left <= mid) {
         temp.push_back(arr[left]);
         left++;
