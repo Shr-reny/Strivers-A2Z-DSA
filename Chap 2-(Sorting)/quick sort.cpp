@@ -1,7 +1,7 @@
 /* Quicksort also uses the concept of divide and conquer and uses a pivot element to divide. A pivot is chosen, placed at it's right position and
 then the left and right subarrays are sorted. */
 /* Time complexity is O(logn) but it is little better than merge sort in terms of space complexity,
-where quick has O(1) and merge has O(n) */
+where quick has O(1) and merge has O(n) as it sorts the array there itself without using extra space*/
 
 int partitionArray(int input[], int start, int end) {
 	int i=start;
