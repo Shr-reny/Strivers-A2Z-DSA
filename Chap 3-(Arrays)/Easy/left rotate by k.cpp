@@ -59,7 +59,7 @@ void Reverse(int arr[], int start, int end)
   }
 }
 
-void Rotateeletoleft(int arr[], int n, int k)
+void Rotatetoleft(int arr[], int n, int k)
 {
   Reverse(arr, 0, k - 1);
   Reverse(arr, k, n - 1);
