@@ -45,7 +45,7 @@ int main() {
 }
 
 /*OPTIMAL SOL:
-TC is O(N) and SC is O(1) since no extra space is used */
+TC is O(N) and SC is O(1) since no extra space is used. Also, k=k%n is done to avoid repetetive rotations in case of large rotations*/
 
 void Reverse(int arr[], int start, int end)
 {
@@ -61,7 +61,7 @@ void Reverse(int arr[], int start, int end)
 
 void Rotatetoleft(int arr[], int n, int k)
 {
+  Reverse(arr, 0, n - 1);
   Reverse(arr, 0, k - 1);
   Reverse(arr, k, n - 1);
-  Reverse(arr, 0, n - 1);
 }
