@@ -71,12 +71,16 @@ XOR of a number with 0 will result in the number itself i.e. 0 ^ a = a.  ←Prop
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int x1=0,x2=0;
+        int ans=0;
         int n=nums.size();
-        for(int i=0;i<n;i++)
+         for(int i=0;i<n;i++)
         {
-            x1=x1^nums[i];
-            x2=x2
+            ans=ans^i;
         }
+        for(int i=1;i<=n;i++)
+        {
+            ans=ans^nums[i];
+        }
+        return ans;
     }
 };
