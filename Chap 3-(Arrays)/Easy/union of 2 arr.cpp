@@ -1,5 +1,9 @@
 /* Aim is to find union of 2 sorted arrays */
 
+/*NOTE:
+Insertion in set or map for one element takes O(logn) TC where n is the number of elements and for insertion of n elements it
+will take nlog(n) */
+
 /* Using SET:
 TC is (m+n)O(log(m+n)) and SC is O(m+n) if space of union vector is considered else O(1) */
 
@@ -84,7 +88,3 @@ vector < int > sortedArray(vector < int > arr1, vector < int > arr2) {
   return Union;
 }
 
-
-/*NOTE:
-Insertion in set or map for one element takes O(logn) TC where n is the number of elements and for insertion of n elements it
-will take nlog(n) */
