@@ -23,25 +23,18 @@ vector<int> moveZeros(int n, vector<int> a) {
 }
 
 /* OPTIMAL SOL:
-TC is O(n) as even though we have used 2 loops we r traversing the array only once and SC is O(1) */
+TC is O(n) and SC is O(1). We're identfying non-sero numbers and swapping them with the left most positions 
+subsequently pushing zeroes to the end */
 
 vector<int> moveZeros(int n, vector<int> a) {
-    int j=-1;
-   for(int i=0;i<n;i++)
-   {
-     if (a[i] == 0) {
-       j = i;
-       break;
-     }
-   }
-   if(j==-1) return a;
-   for(int i=j+1;i<n;i++)
-   {
-       if(a[i]!=0)
-       {
-           swap(a[i],a[j]);
-           j++;
-       }
-   }
-   return a;
+    if(n==1) return a;
+    int j=0;
+        for(int i=0;i<n;i++)
+        {
+            if(nums[i]!=0)
+            {
+                swap(nums[j],nums[i]);
+                j++;
+            }
+        }
 }
