@@ -17,7 +17,7 @@ vector<int> rotateArray(vector<int>& arr, int n) {
 
 /* OPTIMAL SOLUTION:
 Here we don't create extra array and just do swappings within the same one so,
-   Time complexity is O(N) but space complexity is O(1) */
+Time complexity is O(N) but space complexity is O(1) */
 
 vector<int> rotateArray(vector<int>& arr, int n) {
     int temp=arr[0];
