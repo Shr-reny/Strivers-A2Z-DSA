@@ -45,7 +45,7 @@ int main() {
 }
 
 /*OPTIMAL SOL:
-TC is O(N) and SC isO(1) since no extra space is used */
+TC is O(N) and SC is O(1) since no extra space is used */
 
 void Reverse(int arr[], int start, int end)
 {
