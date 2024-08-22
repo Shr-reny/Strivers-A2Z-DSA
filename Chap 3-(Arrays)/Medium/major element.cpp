@@ -57,7 +57,7 @@ class Solution{
     }
 };
 
-/* OPTIMAL SOL:
+/* OPTIMAL SOL: Moore's Counting Algorithm
   TC is O(N)+O(N) and SC is O(1) */
 
 class Solution {
