@@ -57,7 +57,8 @@ class Solution{
     }
 };
 
-/* OPTIMAL SOL: Moore's Counting Algorithm
+/* OPTIMAL SOL: Moore's Voting Algorithm
+  If an element's frequency is greater than n/2 it must be in majority in every subarray
   TC is O(N)+O(N) and SC is O(1) */
 
 class Solution {
@@ -79,12 +80,7 @@ public:
             }
             else cnt--;
         }
-        int cnt1=0;
-        for(int i=0;i<n;i++)
-        {
-            if(el==nums[i]) cnt1++;
-        }
-        if(cnt1>n/2) return el;
+        if(cnt>0) return el;
         return -1;
     }
 };
