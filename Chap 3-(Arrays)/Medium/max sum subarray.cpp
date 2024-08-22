@@ -44,7 +44,7 @@ int maxSubarraySum(int arr[], int n) {
     return maxi;
 }
 
-/* OPTIMAL SOL:
+/* OPTIMAL SOL: KADANE's Algorithm
 TC is O(N) and SC is O(1) */
 
 class Solution {
