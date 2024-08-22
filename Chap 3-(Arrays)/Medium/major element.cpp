@@ -1,5 +1,4 @@
 /* Aim is to find the element which occurs more than n/2 times in array */
-/* KADANE'S ALGORITHM */
 
 /* BRUTE FORCE:
   TC is O(N*N) and SC is O(1) */
