@@ -1,5 +1,5 @@
 /* Aim is to buy and sell stocks to make max profit. An array of prices will be given and you have to choose when to buy and sell
-in order to make max profit. You cannot buy before selling previous one. */
+in order to make max profit. You cannot buy before selling previous one.  */
 
 /* BRUTE FORCE:
 TC is O(N*N) and SC is O(1) */
