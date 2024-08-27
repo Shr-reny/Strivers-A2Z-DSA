@@ -1,8 +1,8 @@
 /* The lower bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater 
-than or equal to a given key i.e. x.
-  The upper bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater 
-than the given key i.e. x.
-  The code takes O(log2N) time complexity. 
+   than or equal to a given key i.e. x.
+   The upper bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater 
+   than the given key i.e. x.
+   The code takes O(log2N) time complexity. 
   
   In C++, there are pre-built functions lower_bound and upper_bound */
 
