@@ -6,7 +6,7 @@
   
   In C++, there are pre-built functions lower_bound and upper_bound */
 
- int findFloor(vector<long long> &v, long long n, long long x) {
+ int lowerBound(vector<long long> &v, long long n, long long x) {
 
         int l=0,h=n-1;
         int ans=-1;
