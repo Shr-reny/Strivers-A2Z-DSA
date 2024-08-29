@@ -30,7 +30,7 @@ vector<int> searchRange(vector<int>& nums, int target) {
 
 /* APPROACH 2 : This is also the optimized code for returning number of occurences of x */
 
-int first(int arr[], int n, int x)
+        int first(int arr[], int n, int x)
 	{
 	    int l=0,h=n-1,k=0,f=-1,la=-1;
 	    while(l<=h)
