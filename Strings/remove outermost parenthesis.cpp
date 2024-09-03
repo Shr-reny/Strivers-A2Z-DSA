@@ -27,8 +27,7 @@ After removing outer parentheses of each part, this is "()()" + "()" + "()(())" 
                     k--;
                     if(k>0){
                     str+=s[i];}
-                }
-            
+                }          
         }
         return str;
     }
