@@ -17,3 +17,12 @@ Node *insertAtEnd(Node *head, int x) {
         temp->next=neww;
         return head;
     }
+
+/* Insertion at beginning */
+
+ Node *insertAtBegining(Node *head, int x) {
+        Node* neww=new Node(x);
+        neww->next=head;
+        head=neww;
+        return head;
+    }
