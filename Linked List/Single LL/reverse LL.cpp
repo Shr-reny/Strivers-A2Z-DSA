@@ -9,14 +9,14 @@ Output: [5,4,3,2,1]
 /* Iterative - O(N) and O(1) */
 ListNode* reverseList(ListNode* head) {
         ListNode* prev=NULL;
-        ListNode* next=NULL;
+        ListNode* front=NULL;
         ListNode* curr=head;
         while(curr!=NULL)
         {
-            next=curr->next;
+            front=curr->next;
             curr->next=prev;
             prev=curr;
-            curr=next;
+            curr=front;
         }
         return prev;
     }
