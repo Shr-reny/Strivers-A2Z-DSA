@@ -43,8 +43,7 @@ ListNode* rev(ListNode* head)
             fast=fast->next->next;
         }
         ListNode* first=head;
-        ListNode* newh=rev(slow);
-        ListNode* second=newh;
+        ListNode* second=rev(slow);
         while(second!=NULL)
         {
         if(first->val!=second->val)
