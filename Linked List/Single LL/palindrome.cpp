@@ -24,3 +24,35 @@ During the first traversal, it reverses one-half of the list, and during the sec
 it compares the elements of both halves. As each traversal covers N/2 elements, the time complexity
 is calculated as O(N/2 + N/2 + N/2 + N/2), which simplifies to O(2N), ultimately representing O(N) and SC is O(1) */
 
+ListNode* rev(ListNode* head)
+    {
+        if(head==NULL || head->next==NULL) return head;
+        ListNode* newh=rev(head->next);
+        ListNode* front=head->next;
+        front->next=head;
+        head->next=NULL;
+        return newh;
+    }
+    bool isPalindrome(ListNode* head) {
+        if(head->next==NULL) return true;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        while(fast!=NULL && fast->next!=NULL)
+        {
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        ListNode* first=head;
+        ListNode* newh=rev(slow);
+        ListNode* second=newh;
+        while(second!=NULL)
+        {
+        if(first->val!=second->val)
+        {
+            return false;
+        }
+        first=first->next;
+        second=second->next;
+        }
+        return true;
+    }
