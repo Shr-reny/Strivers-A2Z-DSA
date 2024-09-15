@@ -2,9 +2,6 @@
 The aim is to return sum of the even and odd digits present in a number. By digits we mean the numbers and not index.
 for ex:- n=132456 so sum of even=12 and sum of odd=9 */
 
-#include<iostream>
-using namespace std;
-
 int main() {
 	int n;  
 	cin >> n;
