@@ -6,6 +6,7 @@ Output: [5,4,3,2,1]
 
 */
 
+
 /* Iterative - O(N) and O(1) */
 ListNode* reverseList(ListNode* head) {
         ListNode* prev=NULL;
@@ -20,6 +21,7 @@ ListNode* reverseList(ListNode* head) {
         }
         return prev;
     }
+
 
 /* Recursive - O(N) and O(1) */
 ListNode* reverseList(ListNode* head) {
