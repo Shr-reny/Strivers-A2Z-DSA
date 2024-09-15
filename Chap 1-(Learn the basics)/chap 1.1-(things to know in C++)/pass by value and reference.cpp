@@ -3,8 +3,6 @@ When we pass values to a function, we send it a copy of the variable to perform 
 When we pass references to a function, we send addresses to it which means the original value gets modified by the function.
 This program will define two functions: max and swap which will demonstrate pass by value and reference respectively.*/
 
-#include <iostream>
-using namespace std;
 /* max function - value */
 int Maximum(int x, int y)
 {
