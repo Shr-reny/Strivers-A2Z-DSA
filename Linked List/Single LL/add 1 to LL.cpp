@@ -6,6 +6,7 @@ ex:-
   1->0->0->null
 */
 
+/* Recursion and BackTracking */
 int addf(Node* temp)
     {
         if(temp==NULL) return 1;
