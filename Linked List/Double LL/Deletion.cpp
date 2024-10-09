@@ -1,5 +1,7 @@
 /*
-Deletion at a position k
+
+Deletion at a given position k
+
 */
 
 Node* delete_head(Node* head){
